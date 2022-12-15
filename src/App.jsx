@@ -1,5 +1,9 @@
-
-
+import About from './component/About'
+import Banner from './component/Banner'
+import Carrers from './component/Carrers'
+import Community from './component/Community'
+import Footer from './component/Footer'
+import Header from './component/Header'
 import './style/App.sass'
 
 function App() {
@@ -7,7 +11,12 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Ola mundo</h1>
+     <Header />
+     <Banner />
+     <About />
+     <Carrers />
+     <Community />
+     <Footer />
     </div>
   )
 }
