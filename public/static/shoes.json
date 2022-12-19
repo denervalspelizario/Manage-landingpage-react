@@ -1,0 +1,29 @@
+[
+  {
+    "id": "94313731",
+    "name": "Anisha Li" ,
+    "price": " ''Manage has superchargerd our team's workflow. The ability to maintaim visibility on larger milestones at all times keep everyone motivated.''",
+    "image": "/image/avatar-anisha.png"
+  },
+  {
+    "id": "94313762",
+    "name": "Ali Bravo",
+    "price": "''We have able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.''",
+    "image": "/image/avatar-ali.png"
+  },
+  
+  { 
+    "id": "943137XQ",
+    "name": "Richard Watts",
+    "price": "''Manage allows us to provide structure and process. It keeps us organized and focused. I cant't stop recommending them to everyone i talk to!''",
+    "image": "/image/avatar-richard.png"
+  },
+  {
+    "id": "95077714",
+    "name": "Shanai Gough",
+    "price": "''Their software allows us to track, manage and collaborate on our projects from anywhere. Its keeps the whole team in-sync without being intrusive''",
+    "image": "/image/avatar-shanai.png"
+  }
+  
+  
+]
