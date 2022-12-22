@@ -1,0 +1,21 @@
+@use '../variables'
+@use '../mixins'
+
+.button__default
+    
+    button
+        cursor: pointer  
+        font-size: 0.8rem  
+        color: variables.$VaryLightGray
+        background-color: variables.$BrightRed
+        border: 1px solid transparent
+        border-radius: 20px
+        font-weight: 700
+        padding: 0.8rem 1.8rem
+        box-shadow: 1px 10px 10px -5px variables.$BrightRed
+
+        &:hover
+            background-color: variables.$hoverButton
+            box-shadow: 1px 10px 10px -5px variables.$hoverButton
+            transition: .4s
+

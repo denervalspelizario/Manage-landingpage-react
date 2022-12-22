@@ -2,8 +2,8 @@ import '../style/component/GetStarted.sass';
 
 const GetStarted = () => {
   return (
-    <div>
-        <button type='submit'>Iniciar</button>
+    <div className='button__default'>
+        <button type='submit'>Get Started</button>
     </div>
   )
 }
