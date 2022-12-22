@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
+import GetStarted from './GetStarted';
 import '../style/component/Community.sass';
 
 const Community = () => {
@@ -48,6 +49,7 @@ const Community = () => {
           <button onClick={handleRightClick} ><img className='button__last'  src="/public/static/images/scroll.png" alt="Scroll Right" /></button>
         </div>
       </div>
+      <GetStarted />
     </div>
   )
 }
