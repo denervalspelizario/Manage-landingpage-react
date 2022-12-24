@@ -1,2 +1,52 @@
 @use '../variables'
 @use '../mixins'
+
+
+header
+    margin: 0 auto
+    padding: 4rem 0
+    width: 1024px
+    display: flex
+    justify-content: space-between
+    figure
+        z-index: 1
+        .header__logo
+            @include mixins.menu-position
+
+            &:hover
+                @include mixins.hover-media
+
+    .header__menu--desktop
+        z-index: 1
+        margin: 0
+        @include mixins.menu-position
+
+        ul
+            display: flex
+            li
+                margin: 0 1rem
+                list-style: none
+                
+                a
+                    text-decoration: none
+                    font-size: 0.9rem
+                    font-weight: 500
+                    color: variables.$DarkBlue
+                    border-bottom:  2px solid transparent
+
+                    &:hover
+                        @include mixins.hover-text
+
+    .container__menu--mobile
+        display: none    
+
+.header__container__back    
+    width: 100vw
+    display: flex
+    justify-content: end
+    .header__image--back
+        z-index: 0
+        position: relative
+        bottom: 220px
+        left: 100px
+                

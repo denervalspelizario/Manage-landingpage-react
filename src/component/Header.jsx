@@ -2,6 +2,7 @@ import '../style/component/Header.sass';
 import GetStarted from './GetStarted';
 import Banner from './Banner';
 import Logo from '/image/logo.svg';
+import ImageBack from '../../public/image/bg-tablet-pattern.svg';
 
 
 const Header = (props) => {
@@ -9,8 +10,10 @@ const Header = (props) => {
   return (
     <div>
       <header>
-        <img src={Logo} alt="logo manage escrito na cor azul marinho em fonte Be Vietnam Pro" />  
-        <nav>
+        <figure>
+          <img  className='header__logo' src={Logo} alt="logo manage escrito na cor azul marinho em fonte Be Vietnam Pro" />  
+        </figure>
+        <nav className='header__menu--desktop'>
           <ul>
             <li>
               <a href="#">Pricing</a>
@@ -47,6 +50,9 @@ const Header = (props) => {
         </nav>
         <GetStarted />      
       </header>
+      <div className='header__container__back' >
+        <img className='header__image--back' src={ImageBack}/>
+      </div>
       <Banner />
     </div>
 

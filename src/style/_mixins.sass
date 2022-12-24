@@ -1,1 +1,26 @@
 @use './variables'
+
+
+
+@mixin hover-text
+    border-bottom:  2px solid variables.$DarkBlue
+    transition: .6s 
+
+
+@mixin hover-pulse  
+    0% 
+        transform: scale(0.90)
+    70% 
+        transform: scale(1)
+    100% 
+        transform: scale(0.90)    
+
+@mixin hover-media
+    -webkit-transform: scale(1.1)
+    -ms-transform: scale(1.1)
+    transform: scale(1.1)
+    transition: transform .4s    
+
+@mixin menu-position
+    position: relative
+    top: 1rem        
