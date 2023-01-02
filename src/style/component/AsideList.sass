@@ -1,0 +1,30 @@
+@use '../variables'
+@use '../mixins'
+
+.aside__container
+
+    .aside__up
+        display: flex
+        width: 400px
+
+        span
+            font-size: 1rem
+            color: variables.$VaryLightGray
+            background-color: variables.$BrightRed
+            border-radius: 20px
+            padding: 0.4rem 1.6rem 
+
+        h3
+            font-size: 1rem    
+            padding: 5px 0 0 16px
+            color: variables.$DarkBlue
+
+
+    .aside__down
+        width: 450px
+
+        p
+            @include mixins.text-default
+            padding: 20px 0 40px 90px
+            
+            

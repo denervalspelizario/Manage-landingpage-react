@@ -1,8 +1,9 @@
 import React from 'react'
+import '../style/component/AsideList.sass'
 
 const AsideList = (props) => {
   return (
-    <div className='aside__container'>
+    <section className='aside__container'>
       <div className='aside__up'>
         <span>{props.number}</span>
         <h3>{props.subtitle}</h3>
@@ -10,7 +11,7 @@ const AsideList = (props) => {
       <div className='aside__down'>
         <p>{props.text}</p>
       </div>
-    </div>
+    </section>
 
   )
 }
