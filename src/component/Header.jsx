@@ -3,12 +3,13 @@ import GetStarted from './GetStarted';
 import Banner from './Banner';
 import Logo from '/image/logo.svg';
 import ImageBack from '../../public/image/bg-tablet-pattern.svg';
+import ImageDados from '/image/illustration-intro.svg';
 
 
 const Header = (props) => {
   
   return (
-    <div>
+    <div className='container__header'>
       <header>
         <figure>
           <img  className='header__logo' src={Logo} alt="logo manage escrito na cor azul marinho em fonte Be Vietnam Pro" />  
@@ -53,8 +54,9 @@ const Header = (props) => {
       <div className='header__container__back' >
         <img className='header__image--back' src={ImageBack}/>
       </div>
-      <Banner />
+      <Banner/>
     </div>
+    
 
   )
 }

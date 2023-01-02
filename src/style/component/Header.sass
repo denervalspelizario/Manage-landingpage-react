@@ -1,6 +1,9 @@
 @use '../variables'
 @use '../mixins'
 
+.container__header
+    height: 750px
+
 
 header
     margin: 0 auto
@@ -9,7 +12,7 @@ header
     display: flex
     justify-content: space-between
     figure
-        z-index: 1
+        z-index: 4
         .header__logo
             @include mixins.menu-position
 
@@ -17,7 +20,7 @@ header
                 @include mixins.hover-media
 
     .header__menu--desktop
-        z-index: 1
+        z-index: 4
         margin: 0
         @include mixins.menu-position
 
@@ -45,8 +48,9 @@ header
     display: flex
     justify-content: end
     .header__image--back
-        z-index: 0
+        z-index: 3
         position: relative
-        bottom: 220px
-        left: 100px
+        bottom: 400px
+        left: 200px
                 
+             
