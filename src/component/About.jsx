@@ -1,5 +1,6 @@
 import AsideList from './AsideList';
 import '../style/component/About.sass';
+import ImageBack from '../../public/image/bg-tablet-pattern.svg';
 
 const About = () => {
   return (
@@ -11,6 +12,9 @@ const About = () => {
           team needs. Without the complexity. Our software
           is tailor-made for modern digital product teams.
         </p>
+        <div className='header__container__back' >
+          <img className='header__image--back' src={ImageBack}/>
+        </div>
       </div>
       <aside>
         <AsideList  number='01' subtitle='Track company-wide progress' 
@@ -29,7 +33,6 @@ const About = () => {
                 files, track tasks and share documents. Manage offers an all-in-one
                 team productivity solution.'
         />    
-        
       </aside>
     </article>
   )

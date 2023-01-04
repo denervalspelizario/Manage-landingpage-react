@@ -5,11 +5,15 @@
 .main__container
     display: flex
     justify-content: center
+    height: 500px
+    z-index: 4
 
     .sobre__container
         width: 500px
         position: relative
         right: 150px
+        z-index: 4
+
         
         h2
             font-size: 2.2rem
@@ -19,6 +23,24 @@
         p
             @include mixins.text-default
             width: 300px
+
+        .header__container__back   
+            width: 100vw 
+            display: flex
+            justify-content: start
+            z-index: 3
+            position: relative
+            position: relative
+            top: 400px
+            right: 700px 
+                
+
+            .header__image--back
+                width: 700px
+                
+    
     aside
         width: 350px   
+
+       
              
